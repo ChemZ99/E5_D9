@@ -57,11 +57,15 @@
 			<artifactId>cloudinary-http45</artifactId>
 			<version>1.34.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.sendgrid/sendgrid-java -->
+		<!-- https://mvnrepository.com/artifact/com.mailgun/mailgun-java -->
 		<dependency>
-			<groupId>com.sendgrid</groupId>
-			<artifactId>sendgrid-java</artifactId>
-			<version>4.9.3</version>
+			<groupId>com.mailgun</groupId>
+			<artifactId>mailgun-java</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 
 	</dependencies>
